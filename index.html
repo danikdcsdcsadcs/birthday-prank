@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ВНИМАНИЕ! ДОСТУП ОГРАНИЧЕН!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="prank-screen" class="screen">
+        <div class="warning-header">⚠️ ТРЕБУЕТСЯ ВАШЕ МГНОВЕННОЕ ПРИСУТСТВИЕ!</div>
+        
+        <div class="fake-ad-banner">
+            <div class="ad-avatar-container">
+                <img class="ad-avatar" id="banner-thumb" alt="Mikhail">
+                <div class="live-badge">LIVE 🔴</div>
+            </div>
+            <div class="ad-info">
+                <div class="ad-title">Михаил, 21 <span class="online-dot"></span></div>
+                <div class="ad-subtitle">Большой жеребец хочет тебя 🍌</div>
+                <div class="ad-distance">📍 В сети (в 200 метрах от вас)</div>
+            </div>
+            <div class="ad-buttons">
+                <button class="ad-btn ad-btn-go">Перейти</button>
+                <button class="ad-btn ad-btn-close">Закрыть</button>
+            </div>
+        </div>
+        
+        <button class="main-action-btn" id="start-btn">Я ЗДЕСЬ</button>
+    </div>
+
+    <div id="birthday-screen" class="screen hidden">
+        <div id="falling-container"></div>
+        
+        <div class="greeting-card">
+            <h1>С днём рождения!</h1>
+            <div class="subtitle">Ура! Наконец-то этот день настал! 🎉</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
